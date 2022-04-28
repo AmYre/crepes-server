@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_product_detail_products",
+  "info": {
+    "displayName": "products",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category_name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "product_name": {
+      "type": "string"
+    },
+    "supplement_list": {
+      "displayName": "supplement",
+      "type": "component",
+      "repeatable": true,
+      "component": "product-detail.supplement"
+    },
+    "product_id": {
+      "type": "integer"
+    }
+  }
+}

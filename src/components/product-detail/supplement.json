@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_product_detail_supplements",
+  "info": {
+    "displayName": "supplement",
+    "icon": "angle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "id_list": {
+      "type": "string"
+    }
+  }
+}
