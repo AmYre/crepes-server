@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "supplements",
+  "collectionName": "crepes",
   "info": {
-    "singularName": "supplement",
-    "pluralName": "supplements",
-    "displayName": "supplements",
-    "description": ""
+    "singularName": "crepe",
+    "pluralName": "crepes",
+    "displayName": "crepes"
   },
   "options": {
     "draftAndPublish": true
@@ -18,16 +17,18 @@
     "price": {
       "type": "decimal"
     },
-    "img": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
+    "image": {
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "time": {
+      "type": "time"
     }
   }
 }
