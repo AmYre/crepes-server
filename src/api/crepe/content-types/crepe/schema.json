@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "crepes_sucrees",
+  "collectionName": "crepes",
   "info": {
-    "singularName": "crepes-sucree",
-    "pluralName": "crepes-sucrees",
-    "displayName": "crepes sucree",
+    "singularName": "crepe",
+    "pluralName": "crepes",
+    "displayName": "crepes",
     "description": ""
   },
   "options": {
@@ -12,10 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "product_name": {
-      "type": "string"
-    },
-    "category_name": {
+    "name": {
       "type": "string"
     },
     "price": {
@@ -28,11 +25,9 @@
       "allowedTypes": [
         "images",
         "files",
-        "videos"
+        "videos",
+        "audios"
       ]
-    },
-    "preparation_time": {
-      "type": "time"
     }
   }
 }

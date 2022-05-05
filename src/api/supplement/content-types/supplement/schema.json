@@ -4,7 +4,7 @@
   "info": {
     "singularName": "supplement",
     "pluralName": "supplements",
-    "displayName": "supplement",
+    "displayName": "supplements",
     "description": ""
   },
   "options": {
@@ -19,14 +19,15 @@
       "type": "decimal"
     },
     "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
